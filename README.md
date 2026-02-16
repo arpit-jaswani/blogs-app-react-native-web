@@ -10,7 +10,7 @@ Step 1: please install dependencies run "npm i"
 Step 2: Start the server with "npm start"
 
 Web and Mobile:
-Note:- To run the project with functionality, please run the server first.
+Note :- To run the project with functionality, please run the server first.
 
 
 It is basically a react native + web app, which does works on both mobile device and browser.
