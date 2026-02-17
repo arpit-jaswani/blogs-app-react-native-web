@@ -18,7 +18,7 @@ app.get('/blogs', async (req, res) => {
 
 app.post('/blog/add', async (req, res) => {
     let data = await blogs.addBlog(req.body)
-    res.send(data);
+    res.json(data);
 });
 
 app.get('/blog/upvote/:blogID', async (req, res) => {
